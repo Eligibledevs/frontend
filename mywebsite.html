@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+  </head>
+  <body style="background-color: #202020; color: white; font-family: 'Roboto', sans-serif;">
+
+    <style>
+      .roboto-regular {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+/* Top Navigation Bar */
+.topnav {
+  display: flex;
+  gap: 100px;
+  align-items: center; 
+  justify-content: space-between; 
+  background-color: #202020;
+  padding: 0 150px; 
+  
+
+}
+
+
+
+.topnav a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 14px 16px;
+  opacity: 60%;
+  font-weight: 500;
+  font-style: "Roboto";
+  
+}
+
+.topnav .Courses {
+  padding: 15px;
+  width: 100px;
+  margin-top: 0px;
+  background-color: rgb(0, 255, 255);
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 8px;
+  cursor: pointer;
+
+
+}
+
+
+.topnav a:hover {
+  color: white;
+  
+}
+
+.logo {
+  flex: 1; /* Allow the logo section to take up equal space */
+  text-align: center; /* Center the logo */
+}
+
+.logo img {
+  height: 50px; /* Adjust the logo size */
+}
+
+/* Left Navigation Links */
+.topnav a:first-of-type {
+  margin-right: auto; /* Push these links to the left */
+}
+
+
+.info {
+
+  margin-bottom: 100px;
+  font-family: "Roboto";
+  width: 600px;
+  padding: 35px;
+  margin: auto;
+  text-align: center;
+  margin-top: 0;
+  
+ 
+}
+
+
+.Topic1 {
+  font-family: "Roboto";
+  font-size: 43px;
+  font-weight: 600;
+  
+}
+
+.Topic2 {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 27px;
+
+}
+.Topic3 {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.Topic4 {
+  font-family: "Roboto";
+  font-size: 23px;
+  font-weight: 200;
+  
+  
+}
+
+.Others {
+  margin-bottom: 100px;
+  font-family: "Roboto";
+  width: 500px;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+  margin-top: 0;
+  
+  
+}
+
+.Name {
+  padding: 15px;
+  width: 450px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  border-radius: 8px;
+
+}
+
+.Email {
+  padding: 15px;
+  width: 450px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+
+}
+
+.button {
+  padding: 15px;
+  width: 483px;
+  margin-top: 15px;
+  background-color: aqua;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 8px;
+ 
+
+}
+
+
+/* Footer */
+footer {
+  text-align: center;
+  color: white;
+  margin-top: 200px;
+  margin-bottom: 0px;
+  border: 1px solid green;
+  font-size: 10px;
+  opacity: 22%;
+
+ 
+
+}
+
+   
+    </style>
+
+    <!-- Header Section -->
+    <header style="background-color: #202020;">
+      <div class="topnav">
+        <!-- Left Navigation Links -->
+        <a class="active" href="https://devmastery.pro/frontend-roadmap">TESTIMONIALS</a>
+        <a href="https://devmastery.pro/frontend-roadmap">NEWSLETTER</a>
+
+        <!-- Logo (Center) -->
+        <div class="logo">
+          <img src="images/logoimage.webp" alt="Logo">
+        </div>
+
+        <!-- Right Navigation Links -->
+        <a href="https://devmastery.pro/frontend-roadmap" class="split">YOUTUBE</a>
+        <div class="Courses">
+        <imput aria-placeholder="Freecourses" href="https://devmastery.pro/frontend-roadmap" class="split" class="box-item">FREE COURSES</a>
+        </div>
+       
+      </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="page-container">
+      <div class="info">
+        <h2 class="Topic1">The Complete Frontend Developer Roadmap 2025</h2>
+        <p class="Topic2">
+          Download the ultimate roadmap packed with practical steps, timelines, and projects to help you master frontend development.
+        </p>
+        <p class="Topic3">And yes, it&#39;s FREE.</p>
+        
+      </div>
+      
+      <div class="Others">
+        <input class="Name" placeholder="Full Name&#42;"> <br>
+        <input class="Email" placeholder="Email&#42;"> <br>
+      <button class="button">Get My Roadmap Now</button>
+      </div>
+
+      
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="Copy">
+        <p class="Copyright">© Copyright SWE Mastery • Terms of Service • Privacy Policy</p>
+      </div>
+    </footer>
+  </body>
+</html>
